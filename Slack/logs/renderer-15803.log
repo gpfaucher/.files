@@ -1,0 +1,382 @@
+[06/27/18, 12:38:30:567] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[06/27/18, 12:38:30:568] info: ║      Slack 3.2.1, linux 4.16.5-1-ARCH on x64 at 06/27/18, 12:38:30:564      ║
+[06/27/18, 12:38:30:568] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[06/27/18, 12:38:30:661] info: Initializing local storage instance at path: /home/gabriel/.config/Slack/local-settings.json
+[06/27/18, 12:38:30:980] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: cannot open shared object file: No such file or directory",
+    "stack": "Error: libCallsCore.so: cannot open shared object file: No such file or directory\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/27/18, 12:38:30:980] error: Desktop module calls failed to load
+[06/27/18, 12:38:31:008] info: cld3::loadModule: loading cld3 module
+[06/27/18, 12:38:31:034] info: cld3Loader::loadModule: running environment is NODE
+[06/27/18, 12:38:31:034] info: cld3Loader::loadModule: constructed module object for runtime
+[06/27/18, 12:38:31:220] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/27/18, 12:38:31:220] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/27/18, 12:38:31:232] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[06/27/18, 12:38:31:244] info: Main window preload script finished
+{
+  "readyTime": 989.207305
+}
+[06/27/18, 12:38:34:544] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:34:688] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:053] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:38:35:385] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 39318.096674
+}
+[06/27/18, 12:38:35:648] info: Store: SELECT_CHANNEL C04AQ6GH0
+[06/27/18, 12:38:35:649] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:649] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/27/18, 12:38:35:650] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T04AQ6GEY",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/27/18, 12:38:35:652] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_original.png"
+  },
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:655] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:655] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:729] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:730] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T04AQ6GEY",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 12:38:36:381] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:38:36:395] info: loadAsmModule: loading hunspell-asm module
+[06/27/18, 12:38:36:745] info: loadAsmModule: asm module loaded successfully
+[06/27/18, 12:38:36:745] info: SpellChecker: Starting spellchecker with language detector
+[06/27/18, 12:38:36:745] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[06/27/18, 12:38:36:745] info: SpellChecker::startWithDictionary: Starting language detector with English by default
+[06/27/18, 12:38:36:769] info: download: downloading dictionary for 'en-us'
+[06/27/18, 12:38:36:770] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[06/27/18, 12:38:37:216] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[06/27/18, 12:38:38:579] info: dictionaryDownloader: verifying hash
+[06/27/18, 12:38:41:316] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[06/27/18, 12:38:41:364] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[06/27/18, 12:38:43:315] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[06/27/18, 12:38:43:316] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[06/27/18, 12:38:43:317] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[06/27/18, 12:39:25:722] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    14,
+    52
+  ],
+  "size": [
+    704,
+    834
+  ]
+}
+[06/27/18, 12:39:38:660] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    14,
+    52
+  ],
+  "size": [
+    1412,
+    834
+  ]
+}
+[06/27/18, 12:39:45:253] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:39:45:328] info: Store: SELECT_CHANNEL C04CGLNP9
+[06/27/18, 12:41:55:887] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:41:56:018] info: Store: SELECT_CHANNEL C04AQ6GH0
+[06/27/18, 12:41:59:885] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:41:59:934] info: Store: SELECT_CHANNEL C04BRN86J
+[06/27/18, 12:42:02:016] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:42:02:068] info: Store: SELECT_CHANNEL C81AB3KJL
+[06/27/18, 12:42:03:762] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:42:03:803] info: Store: SELECT_CHANNEL C04BUAA8G
+[06/27/18, 12:43:10:840] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:43:10:921] info: Store: SELECT_CHANNEL C04BMQ5NN
+[06/27/18, 12:44:10:014] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:44:10:060] info: Store: SELECT_CHANNEL C04CA20A1
+[06/27/18, 12:44:11:680] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:44:11:722] info: Store: SELECT_CHANNEL C04EQMUM9
+[06/27/18, 12:44:15:133] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:44:15:178] info: Store: SELECT_CHANNEL C04BMQE1U
+[06/27/18, 12:44:16:861] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:44:16:919] info: Store: SELECT_CHANNEL C04AQ6GH4
+[06/27/18, 12:44:18:866] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:44:18:914] info: Store: SELECT_CHANNEL C04CA2079
+[06/27/18, 12:44:20:405] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:44:20:449] info: Store: SELECT_CHANNEL C04D3P9FB
+[06/27/18, 12:44:27:314] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:44:27:361] info: Store: SELECT_CHANNEL C04CA23H5
+[06/27/18, 12:44:30:455] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:44:30:500] info: Store: SELECT_CHANNEL C04BMRH8N
+[06/27/18, 12:44:31:152] error: Jun-27 12:44:31.152 file:FB5R4G4PK (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[06/27/18, 12:44:32:934] error: Jun-27 12:44:32.933 file:FB5R4G4PK (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[06/27/18, 12:49:11:322] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:49:11:419] info: Store: SELECT_CHANNEL C04CA208R
+[06/27/18, 12:50:53:733] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:50:53:791] info: Store: SELECT_CHANNEL C04EZ3QE2
+[06/27/18, 12:51:03:312] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:51:03:379] info: Store: SELECT_CHANNEL C1N9R1FTN
+[06/27/18, 12:51:34:420] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:51:34:505] info: Store: SELECT_CHANNEL C8MKWJYTY
+[06/27/18, 12:51:38:869] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:51:38:922] info: Store: SELECT_CHANNEL C04EW7RL2
+[06/27/18, 12:51:58:217] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:51:58:261] info: Store: SELECT_CHANNEL C8JL9P87N
+[06/27/18, 12:52:10:635] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 4,
+  "params": "[REDACTED]"
+}
+[06/27/18, 12:52:30:794] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 12:52:30:844] info: Store: SELECT_CHANNEL D8B68S1NK
+[06/27/18, 12:52:34:581] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    722,
+    52
+  ],
+  "size": [
+    704,
+    834
+  ]
+}
+[06/27/18, 12:52:37:491] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    14,
+    52
+  ],
+  "size": [
+    1412,
+    834
+  ]
+}
+[06/27/18, 12:53:08:012] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    722,
+    52
+  ],
+  "size": [
+    704,
+    834
+  ]
+}
+[06/27/18, 12:53:09:379] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    14,
+    52
+  ],
+  "size": [
+    1412,
+    834
+  ]
+}
+[06/27/18, 13:02:34:665] error: Jun-27 13:02:34.664 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4108: unexpected socket closure
+[06/27/18, 13:02:55:569] error: Jun-27 13:02:55.569 SOCKET-MANAGER (T04AQ6GEY) Closing socket because we spent 20000 ms in fast_reconnecting state; giving up
+[06/27/18, 13:02:55:569] error: Jun-27 13:02:55.569 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4107: client state machine got stuck
+[06/27/18, 13:03:16:762] error: Jun-27 13:03:16.762 SOCKET-MANAGER (T04AQ6GEY) Closing socket because we spent 20000 ms in fast_reconnecting state; giving up
+[06/27/18, 13:03:16:762] error: Jun-27 13:03:16.762 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4107: client state machine got stuck
+[06/27/18, 13:03:39:397] error: Jun-27 13:03:39.397 SOCKET-MANAGER (T04AQ6GEY) Closing socket because we spent 20000 ms in fast_reconnecting state; giving up
+[06/27/18, 13:03:39:400] error: Jun-27 13:03:39.398 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4107: client state machine got stuck
+[06/27/18, 13:04:04:528] error: Jun-27 13:04:04.528 SOCKET-MANAGER (T04AQ6GEY) Closing socket because we spent 20000 ms in fast_reconnecting state; giving up
+[06/27/18, 13:04:04:529] error: Jun-27 13:04:04.529 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4107: client state machine got stuck
+[06/27/18, 13:04:36:237] error: Jun-27 13:04:36.236 SOCKET-MANAGER (T04AQ6GEY) Closing socket because we spent 20000 ms in fast_reconnecting state; giving up
+[06/27/18, 13:04:36:237] error: Jun-27 13:04:36.237 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4107: client state machine got stuck
+[06/27/18, 13:05:18:715] error: Jun-27 13:05:18.715 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4108: unexpected socket closure
+[06/27/18, 13:06:29:076] error: Jun-27 13:06:29.076 SOCKET-MANAGER (T04AQ6GEY) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/27/18, 13:06:29:076] error: Jun-27 13:06:29.076 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4107: client state machine got stuck
+[06/27/18, 13:07:34:067] error: Jun-27 13:07:34.066 SOCKET-MANAGER (T04AQ6GEY) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/27/18, 13:07:34:067] error: Jun-27 13:07:34.067 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4107: client state machine got stuck
+[06/27/18, 13:08:18:366] error: Jun-27 13:08:18.366 SOCKET-MANAGER (T04AQ6GEY) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/27/18, 13:08:18:366] error: Jun-27 13:08:18.366 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4107: client state machine got stuck
+[06/27/18, 13:09:11:036] error: Jun-27 13:09:11.035 SOCKET-MANAGER (T04AQ6GEY) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/27/18, 13:09:11:036] error: Jun-27 13:09:11.036 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4107: client state machine got stuck
+[06/27/18, 13:10:11:433] error: Jun-27 13:10:11.433 SOCKET-MANAGER (T04AQ6GEY) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/27/18, 13:10:11:434] error: Jun-27 13:10:11.434 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4107: client state machine got stuck
+[06/27/18, 13:11:25:939] error: Jun-27 13:11:25.939 SOCKET-MANAGER (T04AQ6GEY) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/27/18, 13:11:25:939] error: Jun-27 13:11:25.939 SOCKET-MANAGER (T04AQ6GEY) Closing socket because #4107: client state machine got stuck
+[06/27/18, 13:12:30:964] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_original.png"
+  },
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 13:12:30:965] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 13:23:38:954] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 13:23:39:028] info: Store: SELECT_CHANNEL C08LP557U
+[06/27/18, 13:24:12:591] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 13:24:12:733] info: Store: SELECT_CHANNEL C04BMQ5NN
+[06/27/18, 15:13:08:875] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T04AQ6GEY-U8GRE140N-8c414ce89eb6-512",
+  "channel": "C04BMQ5NN",
+  "content": "[REDACTED]",
+  "id": "vjZZHWhA6pzZYW4",
+  "launchUri": "slack://channel?id=C04BMQ5NN&message=1530097987.000307&team=T04AQ6GEY",
+  "msg": "1530097987.000307",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T04AQ6GEY",
+  "title": "[REDACTED]"
+}

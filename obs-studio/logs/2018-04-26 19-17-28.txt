@@ -1,0 +1,226 @@
+07:17:30 PM.790: CPU Name: AMD FX(tm)-4300 Quad-Core Processor
+07:17:30 PM.790: CPU Speed: 2760.164MHz
+07:17:30 PM.790: Physical Cores: 2, Logical Cores: 4
+07:17:30 PM.790: Physical Memory: 8002MB Total, 5221MB Free
+07:17:30 PM.790: Kernel Version: Linux 4.16.3-1-ARCH
+07:17:30 PM.790: Distribution: "Anarchy Linux" Unknown
+07:17:30 PM.790: Portable mode: false
+07:17:30 PM.866: OBS 21.1.1-1 (linux)
+07:17:30 PM.866: ---------------------------------
+07:17:30 PM.867: ---------------------------------
+07:17:30 PM.867: audio settings reset:
+07:17:30 PM.867: 	samples per sec: 44100
+07:17:30 PM.867: 	speakers:        2
+07:17:30 PM.878: ---------------------------------
+07:17:30 PM.878: Initializing OpenGL...
+07:17:30 PM.936: Loading up OpenGL on adapter nouveau NV117
+07:17:30 PM.936: OpenGL loaded successfully, version 4.3 (Core Profile) Mesa 18.0.1, shading language 4.30
+07:17:31 PM.171: ---------------------------------
+07:17:31 PM.171: video settings reset:
+07:17:31 PM.171: 	base resolution:   1440x900
+07:17:31 PM.171: 	output resolution: 1152x720
+07:17:31 PM.171: 	downscale filter:  Bicubic
+07:17:31 PM.171: 	fps:               30/1
+07:17:31 PM.171: 	format:            NV12
+07:17:31 PM.171: 	YUV mode:          601/Partial
+07:17:31 PM.172: Audio monitoring device:
+07:17:31 PM.172: 	name: Default
+07:17:31 PM.172: 	id: default
+07:17:31 PM.173: ---------------------------------
+07:17:31 PM.564: No blackmagic support
+07:17:31 PM.740: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+07:17:31 PM.740: 
+07:17:31 PM.743: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.1: cannot open shared object file: No such file or directory
+07:17:31 PM.743: 
+07:17:31 PM.743: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+07:17:31 PM.753: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+07:17:31 PM.753: 
+07:17:31 PM.753: Couldn't find VLC installation, VLC video source disabled
+07:17:31 PM.753: ---------------------------------
+07:17:31 PM.753:   Loaded Modules:
+07:17:31 PM.753:     vlc-video.so
+07:17:31 PM.753:     text-freetype2.so
+07:17:31 PM.753:     rtmp-services.so
+07:17:31 PM.753:     obs-x264.so
+07:17:31 PM.753:     obs-transitions.so
+07:17:31 PM.753:     obs-outputs.so
+07:17:31 PM.753:     obs-filters.so
+07:17:31 PM.753:     obs-ffmpeg.so
+07:17:31 PM.753:     linux-v4l2.so
+07:17:31 PM.753:     linux-pulseaudio.so
+07:17:31 PM.753:     linux-jack.so
+07:17:31 PM.753:     linux-decklink.so
+07:17:31 PM.753:     linux-capture.so
+07:17:31 PM.753:     linux-alsa.so
+07:17:31 PM.753:     image-source.so
+07:17:31 PM.753:     frontend-tools.so
+07:17:31 PM.753: ---------------------------------
+07:17:31 PM.753: ==== Startup complete ===============================================
+07:17:31 PM.753: Service '' not found
+07:17:31 PM.755: No scene file found, creating default scene
+07:17:31 PM.755: All scene data cleared
+07:17:31 PM.755: ------------------------------------------------
+07:17:31 PM.763: pulse-input: Server name: 'pulseaudio 11.1'
+07:17:31 PM.763: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+07:17:31 PM.764: pulse-input: Started recording from 'alsa_output.pci-0000_00_14.2.analog-stereo.monitor'
+07:17:31 PM.764: pulse-input: Server name: 'pulseaudio 11.1'
+07:17:31 PM.764: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+07:17:31 PM.764: pulse-input: Started recording from 'alsa_input.pci-0000_00_14.2.analog-stereo'
+07:17:31 PM.764: Switched to scene 'Scene'
+07:17:31 PM.764: Failed to glob scene collections
+07:17:32 PM.324: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+07:17:32 PM.412: [rtmp-services plugin] Successfully updated file 'services.json' (version 81)
+07:17:32 PM.413: [rtmp-services plugin] Successfully updated package (version 81)
+07:17:59 PM.506: 
+07:17:59 PM.506: ==== Auto-config wizard testing commencing ======
+
+07:17:59 PM.540: ---------------------------------
+07:17:59 PM.540: video settings reset:
+07:17:59 PM.540: 	base resolution:   1440x900
+07:17:59 PM.540: 	output resolution: 860x538
+07:17:59 PM.540: 	downscale filter:  Bicubic
+07:17:59 PM.540: 	fps:               30/1
+07:17:59 PM.540: 	format:            NV12
+07:17:59 PM.540: 	YUV mode:          601/Partial
+07:17:59 PM.541: ---------------------------------
+07:17:59 PM.541: [x264 encoder: 'test_x264'] preset: veryfast
+07:17:59 PM.541: [x264 encoder: 'test_x264'] profile: high
+07:17:59 PM.560: [x264 encoder: 'test_x264'] settings:
+07:17:59 PM.560: 	rate_control: CRF
+07:17:59 PM.560: 	bitrate:      0
+07:17:59 PM.560: 	buffer size:  0
+07:17:59 PM.560: 	crf:          20
+07:17:59 PM.560: 	fps_num:      30
+07:17:59 PM.560: 	fps_den:      1
+07:17:59 PM.560: 	width:        860
+07:17:59 PM.560: 	height:       538
+07:17:59 PM.560: 	keyint:       250
+07:17:59 PM.560: 
+07:17:59 PM.570: ---------------------------------
+07:17:59 PM.618: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+07:17:59 PM.618: 
+07:18:04 PM.646: Output 'null': stopping
+07:18:04 PM.646: Output 'null': Total frames output: 126
+07:18:04 PM.646: Output 'null': Total drawn frames: 150
+07:18:04 PM.675: ---------------------------------
+07:18:04 PM.675: video settings reset:
+07:18:04 PM.675: 	base resolution:   1440x900
+07:18:04 PM.675: 	output resolution: 720x450
+07:18:04 PM.675: 	downscale filter:  Bicubic
+07:18:04 PM.675: 	fps:               30/1
+07:18:04 PM.675: 	format:            NV12
+07:18:04 PM.675: 	YUV mode:          601/Partial
+07:18:04 PM.676: ---------------------------------
+07:18:04 PM.676: [x264 encoder: 'test_x264'] preset: veryfast
+07:18:04 PM.676: [x264 encoder: 'test_x264'] profile: high
+07:18:04 PM.676: [x264 encoder: 'test_x264'] settings:
+07:18:04 PM.676: 	rate_control: CRF
+07:18:04 PM.676: 	bitrate:      0
+07:18:04 PM.676: 	buffer size:  0
+07:18:04 PM.676: 	crf:          20
+07:18:04 PM.676: 	fps_num:      30
+07:18:04 PM.676: 	fps_den:      1
+07:18:04 PM.676: 	width:        720
+07:18:04 PM.676: 	height:       450
+07:18:04 PM.676: 	keyint:       250
+07:18:04 PM.676: 
+07:18:04 PM.677: ---------------------------------
+07:18:04 PM.678: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+07:18:04 PM.678: 
+07:18:09 PM.679: Output 'null': stopping
+07:18:09 PM.679: Output 'null': Total frames output: 126
+07:18:09 PM.679: Output 'null': Total drawn frames: 150
+07:18:09 PM.711: ---------------------------------
+07:18:09 PM.711: video settings reset:
+07:18:09 PM.711: 	base resolution:   1440x900
+07:18:09 PM.711: 	output resolution: 640x400
+07:18:09 PM.711: 	downscale filter:  Bicubic
+07:18:09 PM.711: 	fps:               60/1
+07:18:09 PM.711: 	format:            NV12
+07:18:09 PM.711: 	YUV mode:          601/Partial
+07:18:09 PM.712: ---------------------------------
+07:18:09 PM.712: [x264 encoder: 'test_x264'] preset: veryfast
+07:18:09 PM.712: [x264 encoder: 'test_x264'] profile: high
+07:18:09 PM.712: [x264 encoder: 'test_x264'] settings:
+07:18:09 PM.712: 	rate_control: CRF
+07:18:09 PM.712: 	bitrate:      0
+07:18:09 PM.712: 	buffer size:  0
+07:18:09 PM.712: 	crf:          20
+07:18:09 PM.712: 	fps_num:      60
+07:18:09 PM.712: 	fps_den:      1
+07:18:09 PM.712: 	width:        640
+07:18:09 PM.712: 	height:       400
+07:18:09 PM.712: 	keyint:       250
+07:18:09 PM.712: 
+07:18:09 PM.716: ---------------------------------
+07:18:09 PM.716: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+07:18:09 PM.716: 
+07:18:14 PM.718: Output 'null': stopping
+07:18:14 PM.718: Output 'null': Total frames output: 277
+07:18:14 PM.718: Output 'null': Total drawn frames: 300
+07:18:14 PM.748: ---------------------------------
+07:18:14 PM.748: video settings reset:
+07:18:14 PM.748: 	base resolution:   1440x900
+07:18:14 PM.748: 	output resolution: 1152x720
+07:18:14 PM.748: 	downscale filter:  Bicubic
+07:18:14 PM.748: 	fps:               30/1
+07:18:14 PM.748: 	format:            NV12
+07:18:14 PM.748: 	YUV mode:          601/Partial
+07:22:46 PM.334: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds
+07:28:49 PM.315: ---------------------------------
+07:28:49 PM.315: video settings reset:
+07:28:49 PM.315: 	base resolution:   1440x900
+07:28:49 PM.315: 	output resolution: 860x538
+07:28:49 PM.315: 	downscale filter:  Bicubic
+07:28:49 PM.315: 	fps:               30/1
+07:28:49 PM.315: 	format:            NV12
+07:28:49 PM.315: 	YUV mode:          601/Partial
+07:28:49 PM.317: 
+07:28:49 PM.317: ==== Auto-config wizard testing stopping ========
+
+07:29:04 PM.586: xshm-input: Geometry 1440x900 @ 0,0
+07:29:04 PM.588: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene'
+07:29:10 PM.714: ---------------------------------
+07:29:10 PM.714: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+07:29:10 PM.714: [x264 encoder: 'simple_h264_recording'] profile: high
+07:29:10 PM.714: [x264 encoder: 'simple_h264_recording'] settings:
+07:29:10 PM.714: 	rate_control: CRF
+07:29:10 PM.714: 	bitrate:      0
+07:29:10 PM.714: 	buffer size:  0
+07:29:10 PM.714: 	crf:          19
+07:29:10 PM.714: 	fps_num:      30
+07:29:10 PM.714: 	fps_den:      1
+07:29:10 PM.714: 	width:        860
+07:29:10 PM.714: 	height:       538
+07:29:10 PM.714: 	keyint:       250
+07:29:10 PM.714: 
+07:29:10 PM.718: ---------------------------------
+07:29:10 PM.718: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+07:29:10 PM.718: 
+07:29:10 PM.731: ==== Recording Start ===============================================
+07:29:10 PM.731: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/gabriel/2018-04-26 19-29-10.flv'...
+07:29:19 PM.167: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/gabriel/2018-04-26 19-29-10.flv' stopped
+07:29:19 PM.167: Output 'simple_file_output': stopping
+07:29:19 PM.167: Output 'simple_file_output': Total frames output: 228
+07:29:19 PM.167: Output 'simple_file_output': Total drawn frames: 252
+07:29:19 PM.167: ==== Recording Stop ================================================
+07:57:04 PM.716: ---------------------------------
+07:57:04 PM.716: video settings reset:
+07:57:04 PM.716: 	base resolution:   1440x900
+07:57:04 PM.716: 	output resolution: 1920x1080
+07:57:04 PM.716: 	downscale filter:  Bicubic
+07:57:04 PM.716: 	fps:               30/1
+07:57:04 PM.716: 	format:            NV12
+07:57:04 PM.716: 	YUV mode:          601/Partial
+07:57:04 PM.718: Settings changed (outputs, video)
+07:57:04 PM.718: ------------------------------------------------
+07:57:06 PM.281: ==== Recording Start ===============================================
+07:57:13 PM.499: Switched to Preview/Program mode
+07:57:13 PM.499: ------------------------------------------------
+07:57:13 PM.682: Switched to scene 'Scene'
+07:57:13 PM.683: Switched to regular Preview mode
+07:57:13 PM.683: ------------------------------------------------
+07:57:14 PM.357: Output 'simple_ffmpeg_output': stopping
+07:57:14 PM.357: Output 'simple_ffmpeg_output': Total frames output: 242
+07:57:14 PM.357: Output 'simple_ffmpeg_output': Total drawn frames: 243
+07:57:14 PM.357: ==== Recording Stop ================================================

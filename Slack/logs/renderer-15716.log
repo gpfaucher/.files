@@ -1,0 +1,247 @@
+[06/27/18, 12:37:58:120] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[06/27/18, 12:37:58:121] info: ║      Slack 3.2.1, linux 4.16.5-1-ARCH on x64 at 06/27/18, 12:37:58:117      ║
+[06/27/18, 12:37:58:121] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[06/27/18, 12:37:58:322] info: Initializing local storage instance at path: /home/gabriel/.config/Slack/local-settings.json
+[06/27/18, 12:37:58:499] info: NetworkStatus: Waiting for network online…
+[06/27/18, 12:37:58:730] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/27/18, 12:37:58:733] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/27/18, 12:37:58:930] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/27/18, 12:37:59:334] info: Store: SET_NETWORK_STATUS online
+[06/27/18, 12:37:59:335] info: Store: MAIN_WINDOW_SHOWN
+[06/27/18, 12:37:59:347] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}
+[06/27/18, 12:38:29:732] info: Store: REMOVE_WINDOW 3
+[06/27/18, 12:38:29:738] info: Store: ADD_NEW_TEAM
+{
+  "id": "U84EFQSA2",
+  "name": "[REDACTED]",
+  "team_id": "T04AQ6GEY",
+  "team_name": "[REDACTED]",
+  "team_url": "[REDACTED]"
+}
+[06/27/18, 12:38:29:743] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "unloaded",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:30:767] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    14,
+    52
+  ],
+  "size": [
+    1412,
+    834
+  ]
+}
+[06/27/18, 12:38:34:064] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:34:286] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:056] info: Store: SELECT_CHANNEL C04AQ6GH0
+[06/27/18, 12:38:35:057] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:061] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/27/18, 12:38:35:070] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T04AQ6GEY",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/27/18, 12:38:35:262] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_original.png"
+  },
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:383] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:395] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:663] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 12:38:35:664] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T04AQ6GEY",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 12:39:25:721] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    14,
+    52
+  ],
+  "size": [
+    704,
+    834
+  ]
+}
+[06/27/18, 12:39:38:660] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    14,
+    52
+  ],
+  "size": [
+    1412,
+    834
+  ]
+}
+[06/27/18, 12:39:45:255] info: Store: SELECT_CHANNEL C04CGLNP9
+[06/27/18, 12:41:55:888] info: Store: SELECT_CHANNEL C04AQ6GH0
+[06/27/18, 12:41:59:886] info: Store: SELECT_CHANNEL C04BRN86J
+[06/27/18, 12:42:02:017] info: Store: SELECT_CHANNEL C81AB3KJL
+[06/27/18, 12:42:03:763] info: Store: SELECT_CHANNEL C04BUAA8G
+[06/27/18, 12:43:10:842] info: Store: SELECT_CHANNEL C04BMQ5NN
+[06/27/18, 12:44:10:015] info: Store: SELECT_CHANNEL C04CA20A1
+[06/27/18, 12:44:11:681] info: Store: SELECT_CHANNEL C04EQMUM9
+[06/27/18, 12:44:15:133] info: Store: SELECT_CHANNEL C04BMQE1U
+[06/27/18, 12:44:16:864] info: Store: SELECT_CHANNEL C04AQ6GH4
+[06/27/18, 12:44:18:872] info: Store: SELECT_CHANNEL C04CA2079
+[06/27/18, 12:44:20:407] info: Store: SELECT_CHANNEL C04D3P9FB
+[06/27/18, 12:44:27:314] info: Store: SELECT_CHANNEL C04CA23H5
+[06/27/18, 12:44:30:457] info: Store: SELECT_CHANNEL C04BMRH8N
+[06/27/18, 12:49:11:323] info: Store: SELECT_CHANNEL C04CA208R
+[06/27/18, 12:50:53:734] info: Store: SELECT_CHANNEL C04EZ3QE2
+[06/27/18, 12:51:03:314] info: Store: SELECT_CHANNEL C1N9R1FTN
+[06/27/18, 12:51:34:421] info: Store: SELECT_CHANNEL C8MKWJYTY
+[06/27/18, 12:51:38:870] info: Store: SELECT_CHANNEL C04EW7RL2
+[06/27/18, 12:51:58:221] info: Store: SELECT_CHANNEL C8JL9P87N
+[06/27/18, 12:52:10:613] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 4,
+  "params": "[REDACTED]"
+}
+[06/27/18, 12:52:30:794] info: Store: SELECT_CHANNEL D8B68S1NK
+[06/27/18, 12:52:34:581] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    722,
+    52
+  ],
+  "size": [
+    704,
+    834
+  ]
+}
+[06/27/18, 12:52:37:491] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    14,
+    52
+  ],
+  "size": [
+    1412,
+    834
+  ]
+}
+[06/27/18, 12:53:08:012] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    722,
+    52
+  ],
+  "size": [
+    704,
+    834
+  ]
+}
+[06/27/18, 12:53:09:379] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    14,
+    52
+  ],
+  "size": [
+    1412,
+    834
+  ]
+}
+[06/27/18, 13:12:30:789] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-09-30/86251682625_5e05734465b0815d38dd_original.png"
+  },
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 13:12:30:919] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T04AQ6GEY"
+}
+[06/27/18, 13:23:38:956] info: Store: SELECT_CHANNEL C08LP557U
+[06/27/18, 13:24:12:593] info: Store: SELECT_CHANNEL C04BMQ5NN
+[06/27/18, 15:13:08:821] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T04AQ6GEY-U8GRE140N-8c414ce89eb6-512",
+  "channel": "C04BMQ5NN",
+  "content": "[REDACTED]",
+  "id": "vjZZHWhA6pzZYW4",
+  "launchUri": "slack://channel?id=C04BMQ5NN&message=1530097987.000307&team=T04AQ6GEY",
+  "msg": "1530097987.000307",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T04AQ6GEY",
+  "title": "[REDACTED]"
+}

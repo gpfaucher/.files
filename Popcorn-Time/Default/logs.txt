@@ -1,0 +1,45 @@
+
+
+TypeError: Cannot read property 'volume' of null
+    at subObj.vjs.Html5.volume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:6918:57)
+    at subObj.vjs.Player.techGet (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:4225:31)
+    at subObj.vjs.Player.volume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/videojshooks.js:443:27)
+    at n.adjustVolume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/lib/views/player/player.js:876:33)
+    at n.mouseScroll (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/lib/views/player/player.js:871:22)
+
+TypeError: Cannot read property 'volume' of null
+    at subObj.vjs.Html5.volume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:6918:57)
+    at subObj.vjs.Player.techGet (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:4225:31)
+    at subObj.vjs.Player.volume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/videojshooks.js:443:27)
+    at n.adjustVolume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/lib/views/player/player.js:876:33)
+    at n.mouseScroll (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/lib/views/player/player.js:871:22)
+
+TypeError: Cannot read property 'vdata1528132422057' of null
+    at Function.vjs.hasData (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:928:14)
+    at Function.vjs.trigger (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:574:23)
+    at subObj.vjs.Component.trigger (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:2412:7)
+    at subObj.<anonymous> (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:4575:12)
+    at HTMLDocument.ret (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:868:15)
+    at HTMLDocument.data.dispatcher (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:343:29)
+
+TypeError: Cannot read property 'volume' of null
+    at subObj.vjs.Html5.volume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:6918:57)
+    at subObj.vjs.Player.techGet (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:4225:31)
+    at subObj.vjs.Player.volume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/videojshooks.js:443:27)
+    at n.adjustVolume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/lib/views/player/player.js:876:33)
+    at n.mouseScroll (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/lib/views/player/player.js:871:22)
+
+TypeError: Cannot read property 'vdata1528132422057' of null
+    at Function.vjs.hasData (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:928:14)
+    at Function.vjs.trigger (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:574:23)
+    at subObj.vjs.Component.trigger (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:2412:7)
+    at subObj.<anonymous> (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:4575:12)
+    at HTMLDocument.ret (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:868:15)
+    at HTMLDocument.data.dispatcher (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:343:29)
+
+TypeError: Cannot read property 'volume' of null
+    at subObj.vjs.Html5.volume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:6918:57)
+    at subObj.vjs.Player.techGet (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/video.js/dist/video-js/video.dev.js:4225:31)
+    at subObj.vjs.Player.volume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/vendor/videojshooks.js:443:27)
+    at n.adjustVolume (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/lib/views/player/player.js:876:33)
+    at n.mouseScroll (chrome-extension://hecfofbbdfadifpemejbbdcjmfmboohj/src/app/lib/views/player/player.js:871:22)

@@ -1,0 +1,24 @@
+[global_config]
+  borderless = True
+  enabled_plugins = TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.61
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Consolas 15
+    foreground_color = "#eeeeec"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
